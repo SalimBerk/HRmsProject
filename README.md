@@ -1,6 +1,7 @@
 # HRmsProject
 
 * Spring boot işlemleri yapıldı.
+* Swager desteği getirildi.
 * Kullanıcı kayıt ekleme işilemleri yapıldı
 * Kullanıcı silme işlemleri yapıldı
 * Kullanıcının idsine göre çağırma işlemleri yapıldı
