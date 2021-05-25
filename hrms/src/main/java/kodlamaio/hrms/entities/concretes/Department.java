@@ -10,19 +10,22 @@ import javax.persistence.Table;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+
 import lombok.NoArgsConstructor;
 
 @Data
 @Entity
-@Table(name="jobpositions")
+@Table(name="departments")
 @NoArgsConstructor
 @AllArgsConstructor
-public class JobPosition {
+
+public class Department{
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name="id")
 	private int id;
-	@Column(name="name")
-	private String name;
+	
+	@Column(name="departmanname")
+	private int departmanName;
 
 }
